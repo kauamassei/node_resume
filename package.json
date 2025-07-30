@@ -1,0 +1,14 @@
+{
+  "name": "aulaonode",
+  "version": "1.0.0",
+  "description": "Curso de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
