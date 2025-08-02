@@ -8,18 +8,18 @@ app.get("/home", (req, res) => {
 });
 
 app.get("/users", (req, res) => {
-    const users = [
-            {
-                name: "John Doe",
-                email: "johndoe@email.com"
-            },
-             {
-                name: "Jane Doe",
-                email: "janedoe@email.com"
-            },
-        ];
+  const users = [
+    {
+      name: "John Doe",
+      email: "johndoe@email.com",
+    },
+    {
+      name: "Jane Doe",
+      email: "janedoe@email.com",
+    },
+  ];
 
-    res.status(200).json(users)
+  res.status(200).json(users);
 });
 
 app.listen(port, () =>
