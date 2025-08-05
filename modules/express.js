@@ -73,3 +73,4 @@ app.delete("/users/:id", async (req, res) => {
 app.listen(port, () =>
   console.log(`Rodando o server Express na porta ${port}!`)
 );
+
